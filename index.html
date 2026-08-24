@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Portfolio of Emmanuel Orobia, a Software Engineer and IT Support Specialist with experience in software development, automation, debugging, testing, PowerShell, Active Directory, Azure, and enterprise IT support."
+    content="Portfolio of Emmanuel Orobia, Software Engineer and IT Support Specialist with experience in software development, automation, debugging, testing, PowerShell, Active Directory, Azure, and enterprise IT support."
   >
 
   <link rel="stylesheet" href="style.css">
@@ -17,7 +17,7 @@
 <body>
 
   <!-- ===== Navigation ===== -->
-  <nav>
+  <nav class="navbar">
     <div class="nav-container">
       <a href="#home" class="nav-brand">Emmanuel Orobia</a>
 
@@ -34,14 +34,14 @@
 
 
   <!-- ===== Hero ===== -->
-  <header id="home">
+  <header id="home" class="hero">
     <div class="hero-container">
+
+      <h1>Emmanuel L. Orobia</h1>
 
       <p class="hero-title">
         Software Engineer | IT Support Specialist | CompTIA A+ Certified
       </p>
-
-      <h1>Emmanuel L. Orobia</h1>
 
       <p class="hero-description">
         Software Engineer with 8 years of experience in software development,
@@ -63,10 +63,12 @@
           LinkedIn
         </a>
 
-        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        <a href="#contact" class="btn btn-secondary">
+          Contact Me
+        </a>
       </div>
 
-      <p style="margin-top: 28px; color: #d1d5db;">
+      <p class="hero-location">
         Los Angeles, CA
       </p>
 
@@ -74,25 +76,23 @@
   </header>
 
 
-  <main>
+  <main class="main-container">
 
     <!-- ===== About ===== -->
-    <section id="about" class="section-card">
-
+    <section id="about" class="content-card">
       <h2>About Me</h2>
 
       <p>
-        I am a Software Engineer with 8 years of experience in software
-        development, automation, requirements analysis, technical specification
-        development, debugging, testing, and production release support.
+        I am a Software Engineer with 8 years of experience in software development,
+        automation, requirements analysis, technical specification development,
+        debugging, testing, and production release support.
       </p>
 
       <p>
-        My professional engineering background includes application programming,
-        root cause analysis, unit and integration testing, version control,
-        software release activities, technical documentation, mentoring junior
-        engineers, and managing development activities across multiple software
-        projects.
+        My engineering background includes application programming, root cause
+        analysis, unit and integration testing, version control, technical
+        documentation, mentoring junior engineers, and managing development
+        activities across multiple software projects.
       </p>
 
       <p>
@@ -103,30 +103,24 @@
       </p>
 
       <p>
-        My goal is to apply my software engineering and problem-solving
-        background across software development, automation, application support,
-        and enterprise IT environments.
+        I am interested in opportunities across software engineering, automation,
+        application support, and enterprise IT environments.
       </p>
-
     </section>
 
 
     <!-- ===== Skills ===== -->
-    <section id="skills">
-
+    <section id="skills" class="section-block">
       <h2>Core Skills</h2>
 
       <div class="skills-grid">
 
-        <!-- Software Engineering -->
         <div class="skill-card">
-
           <h3>Software Engineering</h3>
 
           <p>
-            Experienced in the full software development lifecycle, from
-            requirements analysis and technical specifications through
-            implementation, testing, debugging, and release validation.
+            Full software development lifecycle experience from requirements and
+            technical specifications through coding, testing, debugging, and release validation.
           </p>
 
           <div class="tags">
@@ -141,19 +135,15 @@
             <span class="tag">Functional Testing</span>
             <span class="tag">SDLC</span>
           </div>
-
         </div>
 
 
-        <!-- IT Support -->
         <div class="skill-card">
-
           <h3>IT Support & Systems</h3>
 
           <p>
-            Hands-on experience supporting Windows environments, identity
-            administration, Microsoft technologies, networking, hardware,
-            software, and end-user troubleshooting.
+            Hands-on experience with enterprise support technologies,
+            Windows environments, identity administration, networking, and troubleshooting.
           </p>
 
           <div class="tags">
@@ -168,19 +158,15 @@
             <span class="tag">Remote Desktop</span>
             <span class="tag">Printer Support</span>
           </div>
-
         </div>
 
 
-        <!-- Tools -->
         <div class="skill-card">
-
           <h3>Development Tools & Platforms</h3>
 
           <p>
-            Familiar with development, issue tracking, source control,
-            automation, cloud, and technical support tools used in enterprise
-            environments.
+            Experience with source control, issue tracking, automation,
+            cloud technologies, and technical support tools.
           </p>
 
           <div class="tags">
@@ -195,19 +181,15 @@
             <span class="tag">ChatGPT</span>
             <span class="tag">Microsoft Copilot</span>
           </div>
-
         </div>
 
 
-        <!-- Professional -->
         <div class="skill-card">
-
           <h3>Professional Skills</h3>
 
           <p>
-            Strong background in structured problem solving, technical
-            communication, collaboration, continuous improvement, and
-            engineering project execution.
+            Strong background in technical collaboration, structured problem
+            solving, documentation, mentoring, and continuous improvement.
           </p>
 
           <div class="tags">
@@ -220,32 +202,28 @@
             <span class="tag">Kaizen</span>
             <span class="tag">Multitasking</span>
           </div>
-
         </div>
 
       </div>
-
     </section>
 
 
     <!-- ===== Projects ===== -->
-    <section id="projects">
-
+    <section id="projects" class="section-block">
       <h2>Featured Projects</h2>
 
       <div class="projects-grid">
 
-
-        <!-- VBA Project -->
         <article class="project-card">
-
           <div class="project-content">
-
             <h3>Excel VBA Code Generation Automation</h3>
 
             <p>
-              Developed an Excel VBA automation solution to generate
-              standardized application code from engineering inputs.
+              Developed an Excel VBA automation solution to generate standardized
+              application code from engineering inputs.
+            </p>
+
+            <p>
               The solution reduced manual engineering workload by approximately
               40% while improving consistency and minimizing potential defects.
             </p>
@@ -256,33 +234,28 @@
               <span class="tag">Automation</span>
               <span class="tag">Code Generation</span>
             </div>
-
           </div>
-
         </article>
 
 
-        <!-- Active Directory OU Project -->
         <article class="project-card">
 
-          <iframe
-            src="https://www.youtube.com/embed/GLWR-ZZIEEk"
-            title="Adding OUs in Active Directory using GUI, PowerShell, and CSV"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/GLWR-ZZIEEk"
+              title="Adding OUs in Active Directory using GUI, PowerShell, and CSV"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
 
           <div class="project-content">
-
-            <h3>
-              Active Directory OU Management
-            </h3>
+            <h3>Active Directory OU Management</h3>
 
             <p>
-              Demonstrated three methods for creating and managing
-              Organizational Units in Active Directory: manual creation using
-              Active Directory Users and Computers, PowerShell automation,
-              and bulk creation using CSV import.
+              Demonstrated three methods for creating and managing Organizational
+              Units in Active Directory using ADUC, PowerShell automation,
+              and CSV-based bulk creation.
             </p>
 
             <div class="tags">
@@ -292,42 +265,37 @@
               <span class="tag">Automation</span>
             </div>
 
-            <p>
-              <a
-                href="https://www.youtube.com/watch?v=GLWR-ZZIEEk"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Watch Video Demonstration →
-              </a>
-            </p>
-
+            <a
+              href="https://www.youtube.com/watch?v=GLWR-ZZIEEk"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              Watch Video →
+            </a>
           </div>
 
         </article>
 
 
-        <!-- Active Directory User Project -->
         <article class="project-card">
 
-          <iframe
-            src="https://www.youtube.com/embed/0rnDSy4TluA"
-            title="Creating Users in Active Directory using GUI, PowerShell, and CSV"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/0rnDSy4TluA"
+              title="Creating Users in Active Directory using GUI, PowerShell, and CSV"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
 
           <div class="project-content">
-
-            <h3>
-              Active Directory User Provisioning
-            </h3>
+            <h3>Active Directory User Provisioning</h3>
 
             <p>
               Demonstrated manual and automated user account provisioning using
-              Active Directory Users and Computers, PowerShell scripting, and
-              CSV-based bulk creation. The project demonstrates practical
-              identity administration and automation skills.
+              Active Directory Users and Computers, PowerShell scripting,
+              and CSV-based bulk creation.
             </p>
 
             <div class="tags">
@@ -337,33 +305,31 @@
               <span class="tag">Identity Management</span>
             </div>
 
-            <p>
-              <a
-                href="https://www.youtube.com/watch?v=0rnDSy4TluA"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Watch Video Demonstration →
-              </a>
-            </p>
-
+            <a
+              href="https://www.youtube.com/watch?v=0rnDSy4TluA"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              Watch Video →
+            </a>
           </div>
 
         </article>
 
 
-        <!-- Azure Project -->
         <article class="project-card">
-
           <div class="project-content">
-
             <h3>Azure IT Support Lab</h3>
 
             <p>
-              Built hands-on Microsoft Azure labs focused on cloud identity,
-              administration, and IT support scenarios. Created an ITSupportBot
-              Azure Agent and practiced Azure identity administration and
-              cloud-based troubleshooting.
+              Built hands-on Microsoft Azure labs focused on identity,
+              administration, cloud support, and troubleshooting scenarios.
+            </p>
+
+            <p>
+              Created an ITSupportBot Azure Agent and practiced Azure identity
+              administration and cloud-based support workflows.
             </p>
 
             <div class="tags">
@@ -372,248 +338,149 @@
               <span class="tag">Identity</span>
               <span class="tag">IT Support</span>
             </div>
-
           </div>
-
         </article>
 
       </div>
-
     </section>
 
 
     <!-- ===== Experience ===== -->
-    <section id="experience" class="section-card">
-
+    <section id="experience" class="content-card">
       <h2>Professional Experience</h2>
 
-      <div class="timeline">
-
-
-        <!-- Professional Development -->
-        <div class="timeline-item">
-
+      <div class="experience-item">
+        <div class="experience-heading">
           <h3>Professional Development</h3>
-
-          <p class="timeline-date">
-            Los Angeles, CA | Jan 2025 – Present
-          </p>
-
-          <ul>
-            <li>
-              Earned CompTIA A+ certification.
-            </li>
-
-            <li>
-              Completed hands-on training in Windows 10/11, Active Directory,
-              Microsoft 365, networking, hardware and software troubleshooting,
-              and technical support workflows.
-            </li>
-
-            <li>
-              Built and configured virtual lab environments for IT support and
-              system administration scenarios.
-            </li>
-
-            <li>
-              Developed PowerShell and Windows administration skills through
-              hands-on automation and administration exercises.
-            </li>
-
-            <li>
-              Gained hands-on Microsoft Azure experience through identity,
-              administration, and cloud support labs.
-            </li>
-
-          </ul>
-
+          <span>Jan 2025 – Present</span>
         </div>
 
+        <p class="experience-location">Los Angeles, CA</p>
 
-        <!-- Senior Software Engineer -->
-        <div class="timeline-item">
+        <ul>
+          <li>Earned CompTIA A+ Certification.</li>
+          <li>Completed hands-on training in Windows 10/11, Active Directory, Microsoft 365, networking, and troubleshooting.</li>
+          <li>Built and configured virtual lab environments for IT support and system administration scenarios.</li>
+          <li>Developed PowerShell and Windows administration skills through lab exercises.</li>
+          <li>Gained hands-on Azure experience through identity, administration, and cloud support labs.</li>
+        </ul>
+      </div>
 
+
+      <div class="experience-item">
+        <div class="experience-heading">
           <h3>DENSO Techno — Senior Software Engineer</h3>
-
-          <p class="timeline-date">
-            Apr 2021 – Dec 2024
-          </p>
-
-          <ul>
-
-            <li>
-              Led end-to-end software development activities across multiple
-              software modules, including requirements analysis, technical
-              specification development, implementation, testing, debugging,
-              and release validation.
-            </li>
-
-            <li>
-              Developed an Excel VBA code-generation automation solution that
-              reduced manual engineering workload by approximately 40% while
-              improving consistency and minimizing potential defects.
-            </li>
-
-            <li>
-              Translated customer and technical requirements into detailed
-              software specifications and implementation requirements.
-            </li>
-
-            <li>
-              Developed and maintained application code according to technical
-              specifications, coding standards, and project requirements.
-            </li>
-
-            <li>
-              Performed software debugging and root cause analysis to identify
-              and resolve complex application, integration, and system defects.
-            </li>
-
-            <li>
-              Designed and executed unit and integration testing to verify
-              software functionality and compliance with requirements.
-            </li>
-
-            <li>
-              Used Git/TortoiseGit and SVN version control systems to manage
-              source code, revisions, and software development changes.
-            </li>
-
-            <li>
-              Used JIRA and issue-tracking systems to document, prioritize,
-              investigate, and resolve software defects and development tasks.
-            </li>
-
-            <li>
-              Collaborated with engineers, project leaders, customers, and
-              cross-functional teams to clarify requirements and develop
-              technical solutions.
-            </li>
-
-          </ul>
-
+          <span>Apr 2021 – Dec 2024</span>
         </div>
 
+        <ul>
+          <li>
+            Led end-to-end software development across multiple software modules,
+            including requirements analysis, technical specification development,
+            implementation, testing, debugging, and release validation.
+          </li>
 
-        <!-- Software Engineer -->
-        <div class="timeline-item">
+          <li>
+            Developed an Excel VBA code-generation automation solution that reduced
+            manual engineering workload by approximately 40%.
+          </li>
 
+          <li>
+            Translated customer and technical requirements into detailed software
+            specifications and implementation requirements.
+          </li>
+
+          <li>
+            Developed and maintained application code according to technical
+            specifications, coding standards, and project requirements.
+          </li>
+
+          <li>
+            Performed software debugging and root cause analysis to identify and
+            resolve complex application, integration, and system defects.
+          </li>
+
+          <li>
+            Designed and executed unit and integration testing to verify software
+            functionality and compliance with requirements.
+          </li>
+
+          <li>
+            Used Git/TortoiseGit and SVN version control systems to manage source code
+            and development changes.
+          </li>
+
+          <li>
+            Used JIRA and issue-tracking systems to document, prioritize,
+            investigate, and resolve software defects and development tasks.
+          </li>
+
+          <li>
+            Collaborated with engineers, project leaders, customers, and cross-functional
+            teams to clarify requirements and develop technical solutions.
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="experience-item">
+        <div class="experience-heading">
           <h3>DENSO Techno — Software Engineer</h3>
-
-          <p class="timeline-date">
-            Apr 2019 – Mar 2021
-          </p>
-
-          <ul>
-
-            <li>
-              Developed, tested, debugged, and maintained embedded software
-              according to technical specifications and customer requirements.
-            </li>
-
-            <li>
-              Analyzed software requirements and supported the development of
-              detailed technical specifications.
-            </li>
-
-            <li>
-              Performed unit, integration, and functional testing to verify
-              software behavior and identify defects.
-            </li>
-
-            <li>
-              Used JIRA to track development tasks, software defects,
-              investigations, and corrective actions.
-            </li>
-
-            <li>
-              Used version control systems to manage software source code,
-              revisions, and project changes.
-            </li>
-
-          </ul>
-
+          <span>Apr 2019 – Mar 2021</span>
         </div>
 
+        <ul>
+          <li>Developed, tested, debugged, and maintained embedded software according to technical specifications and customer requirements.</li>
+          <li>Analyzed software requirements and supported development of detailed technical specifications.</li>
+          <li>Performed unit, integration, and functional testing to verify software behavior.</li>
+          <li>Used JIRA to track development tasks, defects, investigations, and corrective actions.</li>
+          <li>Used version control systems to manage source code and project revisions.</li>
+        </ul>
+      </div>
 
-        <!-- Junior Software Engineer -->
-        <div class="timeline-item">
 
+      <div class="experience-item">
+        <div class="experience-heading">
           <h3>DENSO Techno — Junior Software Engineer</h3>
-
-          <p class="timeline-date">
-            Apr 2017 – Mar 2019
-          </p>
-
-          <ul>
-
-            <li>
-              Supported application programming, software testing,
-              verification, and debugging for embedded software projects.
-            </li>
-
-            <li>
-              Developed and modified software according to established
-              technical specifications and engineering requirements.
-            </li>
-
-            <li>
-              Performed issue investigation and root cause analysis for
-              software defects.
-            </li>
-
-            <li>
-              Executed unit and functional testing and documented test results.
-            </li>
-
-            <li>
-              Used software debugging and testing tools to identify and resolve
-              application defects.
-            </li>
-
-            <li>
-              Collaborated with senior engineers to understand requirements,
-              troubleshoot issues, and implement software changes.
-            </li>
-
-          </ul>
-
+          <span>Apr 2017 – Mar 2019</span>
         </div>
 
+        <ul>
+          <li>Supported application programming, software testing, verification, and debugging for embedded software projects.</li>
+          <li>Developed and modified software based on technical specifications and engineering requirements.</li>
+          <li>Performed issue investigation and root cause analysis for software defects.</li>
+          <li>Executed unit and functional testing and documented test results.</li>
+          <li>Used software debugging and testing tools to identify and resolve defects.</li>
+          <li>Collaborated with senior engineers to understand requirements and implement software changes.</li>
+        </ul>
       </div>
 
     </section>
 
 
     <!-- ===== Certifications ===== -->
-    <section id="certifications">
-
+    <section id="certifications" class="section-block">
       <h2>Certifications & Education</h2>
 
-      <div class="skills-grid">
+      <div class="cert-grid">
 
-        <div class="skill-card">
-
+        <div class="cert-card">
           <h3>Certifications</h3>
 
           <ul>
             <li>
-              <strong>CompTIA A+</strong>
-              — 220-1101 & 220-1102, 2026
+              <strong>CompTIA A+</strong><br>
+              220-1101 & 220-1102, 2026
             </li>
 
             <li>
-              <strong>
-                Information Technology Passport Examination (IP)
-              </strong>
+              <strong>Information Technology Passport Examination (IP)</strong>
             </li>
           </ul>
-
         </div>
 
 
-        <div class="skill-card">
-
+        <div class="cert-card">
           <h3>Education</h3>
 
           <p>
@@ -625,17 +492,14 @@
             Philippines<br>
             2017
           </p>
-
         </div>
 
       </div>
-
     </section>
 
 
     <!-- ===== Contact ===== -->
-    <section id="contact" class="section-card">
-
+    <section id="contact" class="contact-card">
       <h2>Contact</h2>
 
       <p>
@@ -643,38 +507,30 @@
         application support, or IT support opportunities?
       </p>
 
-      <p>
-        <strong>Email:</strong>
+      <div class="contact-links">
         <a href="mailto:emmanuelorobia@icloud.com">
           emmanuelorobia@icloud.com
         </a>
-      </p>
 
-      <p>
-        <strong>Location:</strong>
-        Los Angeles, CA
-      </p>
-
-      <p>
         <a
           href="https://www.linkedin.com/in/emmanuelorobia"
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn Profile
+          LinkedIn
         </a>
-      </p>
+      </div>
 
+      <p class="contact-location">
+        Los Angeles, CA
+      </p>
     </section>
 
   </main>
 
 
-  <!-- ===== Footer ===== -->
   <footer>
-    <p>
-      © 2026 Emmanuel L. Orobia
-    </p>
+    <p>© 2026 Emmanuel L. Orobia</p>
   </footer>
 
 </body>
