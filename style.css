@@ -1,6 +1,6 @@
-/* =================================
+/* ==========================================
    GLOBAL
-================================= */
+========================================== */
 
 * {
   box-sizing: border-box;
@@ -12,14 +12,23 @@ html {
 
 body {
   margin: 0;
-  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+
+  font-family:
+    "Inter",
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
   background: #f4f6f8;
+
   color: #1f2937;
+
   line-height: 1.7;
 }
 
 a {
   color: #2563eb;
+
   text-decoration: none;
 }
 
@@ -33,13 +42,15 @@ iframe {
 }
 
 
-/* =================================
+/* ==========================================
    NAVIGATION
-================================= */
+========================================== */
 
 .navbar {
   position: sticky;
+
   top: 0;
+
   z-index: 1000;
 
   width: 100%;
@@ -47,19 +58,26 @@ iframe {
   background: #1b2434;
 
   border-top: 4px solid #06713d;
-  border-bottom: 1px solid #273244;
 
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.14);
+  border-bottom:
+    1px solid #273244;
+
+  box-shadow:
+    0 2px 12px
+    rgba(0, 0, 0, 0.14);
 }
 
 .nav-container {
   max-width: 1260px;
 
   margin: 0 auto;
+
   padding: 15px 24px;
 
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
   gap: 24px;
@@ -69,6 +87,7 @@ iframe {
   color: #ffffff;
 
   font-size: 1rem;
+
   font-weight: 750;
 
   white-space: nowrap;
@@ -80,6 +99,7 @@ iframe {
 
 .nav-links {
   display: flex;
+
   align-items: center;
 
   gap: 25px;
@@ -91,9 +111,11 @@ iframe {
   color: #e5e7eb;
 
   font-size: 0.94rem;
+
   font-weight: 500;
 
-  transition: color 0.2s ease;
+  transition:
+    color 0.2s ease;
 }
 
 .nav-links a:hover {
@@ -101,9 +123,9 @@ iframe {
 }
 
 
-/* =================================
+/* ==========================================
    HERO
-================================= */
+========================================== */
 
 .hero {
   background:
@@ -115,7 +137,9 @@ iframe {
 
   color: #ffffff;
 
-  padding: 74px 24px 68px;
+  padding:
+    72px 24px
+    64px;
 }
 
 .hero-container {
@@ -127,9 +151,15 @@ iframe {
 }
 
 .hero h1 {
-  margin: 0 0 18px;
+  margin:
+    0 0 18px;
 
-  font-size: clamp(2.8rem, 5vw, 4.4rem);
+  font-size:
+    clamp(
+      2.8rem,
+      5vw,
+      4.4rem
+    );
 
   line-height: 1.05;
 
@@ -139,7 +169,8 @@ iframe {
 }
 
 .hero-title {
-  margin: 0 0 16px;
+  margin:
+    0 0 16px;
 
   color: #bfdbfe;
 
@@ -151,7 +182,8 @@ iframe {
 .hero-description {
   max-width: 770px;
 
-  margin: 0 auto;
+  margin:
+    0 auto;
 
   color: #e5e7eb;
 
@@ -164,6 +196,7 @@ iframe {
   margin-top: 28px;
 
   display: flex;
+
   justify-content: center;
 
   gap: 14px;
@@ -174,7 +207,8 @@ iframe {
 .btn {
   display: inline-block;
 
-  padding: 11px 21px;
+  padding:
+    11px 21px;
 
   border-radius: 8px;
 
@@ -189,7 +223,8 @@ iframe {
 }
 
 .btn:hover {
-  transform: translateY(-2px);
+  transform:
+    translateY(-2px);
 }
 
 .btn-primary {
@@ -197,7 +232,8 @@ iframe {
 
   color: #ffffff;
 
-  border: 1px solid #2563eb;
+  border:
+    1px solid #2563eb;
 }
 
 .btn-primary:hover {
@@ -213,7 +249,8 @@ iframe {
 
   color: #ffffff;
 
-  border: 1px solid #64748b;
+  border:
+    1px solid #64748b;
 }
 
 .btn-secondary:hover {
@@ -223,7 +260,8 @@ iframe {
 }
 
 .hero-location {
-  margin: 23px 0 0;
+  margin:
+    23px 0 0;
 
   color: #d1d5db;
 
@@ -231,22 +269,27 @@ iframe {
 }
 
 
-/* =================================
-   MAIN
-================================= */
+/* ==========================================
+   MAIN LAYOUT
+========================================== */
 
 .main-container {
-  width: min(1120px, calc(100% - 40px));
+  width:
+    min(
+      1120px,
+      calc(100% - 40px)
+    );
 
   margin: 0 auto;
 
-  padding: 52px 0 20px;
+  padding:
+    52px 0 20px;
 }
 
 
-/* =================================
+/* ==========================================
    SECTION HEADINGS
-================================= */
+========================================== */
 
 .section-block {
   margin-bottom: 64px;
@@ -278,6 +321,7 @@ iframe {
   display: block;
 
   width: 50px;
+
   height: 3px;
 
   margin-top: 10px;
@@ -288,23 +332,26 @@ iframe {
 }
 
 
-/* =================================
-   ABOUT / GENERIC CARD
-================================= */
+/* ==========================================
+   ABOUT
+========================================== */
 
 .content-card {
   margin-bottom: 64px;
 
-  padding: 40px 44px;
+  padding:
+    40px 44px;
 
   background: #ffffff;
 
-  border: 1px solid #e2e8f0;
+  border:
+    1px solid #e2e8f0;
 
   border-radius: 16px;
 
   box-shadow:
-    0 6px 24px rgba(15, 23, 42, 0.06);
+    0 6px 24px
+    rgba(15, 23, 42, 0.06);
 }
 
 .content-card .section-heading {
@@ -312,7 +359,8 @@ iframe {
 }
 
 .content-card p {
-  margin: 0 0 16px;
+  margin:
+    0 0 16px;
 
   color: #374151;
 
@@ -324,15 +372,18 @@ iframe {
 }
 
 
-/* =================================
+/* ==========================================
    SKILLS
-================================= */
+========================================== */
 
 .skills-grid {
   display: grid;
 
   grid-template-columns:
-    repeat(2, minmax(0, 1fr));
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
 
   gap: 22px;
 }
@@ -342,12 +393,14 @@ iframe {
 
   background: #ffffff;
 
-  border: 1px solid #e5e7eb;
+  border:
+    1px solid #e5e7eb;
 
   border-radius: 14px;
 
   box-shadow:
-    0 4px 18px rgba(15, 23, 42, 0.05);
+    0 4px 18px
+    rgba(15, 23, 42, 0.05);
 
   transition:
     transform 0.2s ease,
@@ -355,14 +408,17 @@ iframe {
 }
 
 .skill-card:hover {
-  transform: translateY(-3px);
+  transform:
+    translateY(-3px);
 
   box-shadow:
-    0 9px 28px rgba(15, 23, 42, 0.09);
+    0 9px 28px
+    rgba(15, 23, 42, 0.09);
 }
 
 .skill-card h3 {
-  margin: 0 0 10px;
+  margin:
+    0 0 10px;
 
   color: #111827;
 
@@ -376,9 +432,9 @@ iframe {
 }
 
 
-/* =================================
+/* ==========================================
    TAGS
-================================= */
+========================================== */
 
 .tags {
   display: flex;
@@ -393,11 +449,13 @@ iframe {
 .tag {
   display: inline-block;
 
-  padding: 5px 10px;
+  padding:
+    5px 10px;
 
   background: #eff6ff;
 
-  border: 1px solid #dbeafe;
+  border:
+    1px solid #dbeafe;
 
   border-radius: 999px;
 
@@ -411,15 +469,18 @@ iframe {
 }
 
 
-/* =================================
+/* ==========================================
    PROJECTS
-================================= */
+========================================== */
 
 .projects-grid {
   display: grid;
 
   grid-template-columns:
-    repeat(2, minmax(0, 1fr));
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
 
   gap: 24px;
 }
@@ -433,12 +494,14 @@ iframe {
 
   background: #ffffff;
 
-  border: 1px solid #e5e7eb;
+  border:
+    1px solid #e5e7eb;
 
   border-radius: 15px;
 
   box-shadow:
-    0 4px 18px rgba(15, 23, 42, 0.05);
+    0 4px 18px
+    rgba(15, 23, 42, 0.05);
 
   transition:
     transform 0.2s ease,
@@ -446,24 +509,27 @@ iframe {
 }
 
 .project-card:hover {
-  transform: translateY(-4px);
+  transform:
+    translateY(-4px);
 
   box-shadow:
-    0 10px 28px rgba(15, 23, 42, 0.09);
+    0 10px 28px
+    rgba(15, 23, 42, 0.09);
 }
 
 .project-content {
   display: flex;
 
-  flex: 1;
-
   flex-direction: column;
+
+  flex: 1;
 
   padding: 27px;
 }
 
 .project-content h3 {
-  margin: 0 0 12px;
+  margin:
+    0 0 12px;
 
   color: #111827;
 
@@ -471,7 +537,8 @@ iframe {
 }
 
 .project-content p {
-  margin: 0 0 13px;
+  margin:
+    0 0 13px;
 
   color: #4b5563;
 }
@@ -479,7 +546,8 @@ iframe {
 .video-wrapper {
   width: 100%;
 
-  aspect-ratio: 16 / 9;
+  aspect-ratio:
+    16 / 9;
 
   background: #111827;
 }
@@ -488,6 +556,7 @@ iframe {
   display: block;
 
   width: 100%;
+
   height: 100%;
 
   border: 0;
@@ -504,18 +573,22 @@ iframe {
 }
 
 
-/* =================================
-   EXPERIENCE
-================================= */
+/* ==========================================
+   PROFESSIONAL EXPERIENCE
+========================================== */
 
 #experience {
   margin-bottom: 64px;
 }
 
-.experience-item {
-  margin-bottom: 24px;
+#experience .section-heading {
+  margin-bottom: 28px;
+}
 
-  padding: 26px 28px;
+#experience .experience-item {
+  display: block;
+
+  width: 100%;
 
   background: #ffffff;
 
@@ -523,88 +596,141 @@ iframe {
     1px solid #e2e8f0;
 
   border-left:
-    4px solid #2563eb;
+    5px solid #2563eb;
 
-  border-radius: 12px;
+  border-radius: 14px;
+
+  padding:
+    28px 30px;
+
+  margin:
+    0 0 24px;
 
   box-shadow:
-    0 4px 18px rgba(15, 23, 42, 0.045);
+    0 5px 20px
+    rgba(15, 23, 42, 0.07);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.experience-item:last-child {
+#experience .experience-item:hover {
+  transform:
+    translateY(-3px);
+
+  box-shadow:
+    0 10px 28px
+    rgba(15, 23, 42, 0.11);
+}
+
+#experience .experience-item:last-child {
   margin-bottom: 0;
 }
 
-.experience-heading {
+
+/* EXPERIENCE TITLE + DATE */
+
+#experience .experience-heading {
   display: flex;
 
   align-items: flex-start;
 
   justify-content: space-between;
 
-  gap: 24px;
+  gap: 25px;
 
-  margin-bottom: 13px;
+  margin-bottom: 16px;
 }
 
-.experience-heading h3 {
+#experience .experience-heading h3 {
   margin: 0;
 
   color: #111827;
 
-  font-size: 1.22rem;
+  font-size: 1.25rem;
 
-  line-height: 1.35;
+  font-weight: 750;
+
+  line-height: 1.4;
 }
 
-.experience-company {
-  margin: 3px 0 0;
+
+/* COMPANY / LOCATION */
+
+#experience .experience-company {
+  margin:
+    5px 0 0;
 
   color: #64748b;
 
-  font-size: 0.92rem;
+  font-size: 0.94rem;
 }
 
-.experience-date {
+
+/* DATE BADGE */
+
+#experience .experience-date {
   flex-shrink: 0;
 
-  color: #64748b;
+  color: #475569;
 
-  font-size: 0.92rem;
+  background: #f1f5f9;
 
-  font-weight: 550;
+  border:
+    1px solid #e2e8f0;
+
+  border-radius: 7px;
+
+  padding:
+    5px 11px;
+
+  font-size: 0.9rem;
+
+  font-weight: 600;
 
   white-space: nowrap;
 }
 
-.experience-item ul {
-  margin: 0;
 
-  padding-left: 20px;
+/* EXPERIENCE BULLETS */
+
+#experience .experience-item ul {
+  margin:
+    16px 0 0;
+
+  padding-left: 21px;
 }
 
-.experience-item li {
-  margin-bottom: 9px;
+#experience .experience-item li {
+  margin-bottom: 10px;
+
+  padding-left: 3px;
 
   color: #374151;
 
-  line-height: 1.67;
+  font-size: 0.97rem;
+
+  line-height: 1.7;
 }
 
-.experience-item li:last-child {
+#experience .experience-item li:last-child {
   margin-bottom: 0;
 }
 
 
-/* =================================
-   CERTIFICATIONS / EDUCATION
-================================= */
+/* ==========================================
+   CERTIFICATIONS & EDUCATION
+========================================== */
 
 .cert-grid {
   display: grid;
 
   grid-template-columns:
-    repeat(2, minmax(0, 1fr));
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
 
   gap: 22px;
 }
@@ -614,16 +740,19 @@ iframe {
 
   background: #ffffff;
 
-  border: 1px solid #e5e7eb;
+  border:
+    1px solid #e5e7eb;
 
   border-radius: 14px;
 
   box-shadow:
-    0 4px 18px rgba(15, 23, 42, 0.05);
+    0 4px 18px
+    rgba(15, 23, 42, 0.05);
 }
 
 .cert-card h3 {
-  margin: 0 0 20px;
+  margin:
+    0 0 20px;
 
   color: #111827;
 
@@ -651,14 +780,15 @@ iframe {
 }
 
 
-/* =================================
+/* ==========================================
    CONTACT
-================================= */
+========================================== */
 
 .contact-card {
   margin-bottom: 42px;
 
-  padding: 42px 38px;
+  padding:
+    42px 38px;
 
   text-align: center;
 
@@ -669,16 +799,19 @@ iframe {
       #f8fafc
     );
 
-  border: 1px solid #e2e8f0;
+  border:
+    1px solid #e2e8f0;
 
   border-radius: 16px;
 
   box-shadow:
-    0 6px 24px rgba(15, 23, 42, 0.06);
+    0 6px 24px
+    rgba(15, 23, 42, 0.06);
 }
 
 .contact-card h2::after {
   margin-left: auto;
+
   margin-right: auto;
 }
 
@@ -701,9 +834,11 @@ iframe {
 .contact-button {
   display: inline-block;
 
-  padding: 10px 18px;
+  padding:
+    10px 18px;
 
-  border: 1px solid #cbd5e1;
+  border:
+    1px solid #cbd5e1;
 
   border-radius: 8px;
 
@@ -715,11 +850,13 @@ iframe {
 
   transition:
     transform 0.2s ease,
-    border-color 0.2s ease;
+    border-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .contact-button:hover {
-  transform: translateY(-2px);
+  transform:
+    translateY(-2px);
 
   border-color: #2563eb;
 
@@ -727,18 +864,20 @@ iframe {
 }
 
 .contact-location {
-  margin: 20px 0 0;
+  margin:
+    20px 0 0;
 
   color: #64748b;
 }
 
 
-/* =================================
+/* ==========================================
    FOOTER
-================================= */
+========================================== */
 
 footer {
-  padding: 28px 20px;
+  padding:
+    28px 20px;
 
   text-align: center;
 
@@ -748,9 +887,9 @@ footer {
 }
 
 
-/* =================================
-   RESPONSIVE
-================================= */
+/* ==========================================
+   TABLET
+========================================== */
 
 @media (max-width: 900px) {
 
@@ -772,17 +911,23 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .experience-heading {
+  #experience .experience-heading {
     flex-direction: column;
 
-    gap: 4px;
+    gap: 8px;
   }
 
   .hero {
-    padding: 62px 20px 56px;
+    padding:
+      60px 20px
+      54px;
   }
 }
 
+
+/* ==========================================
+   MOBILE
+========================================== */
 
 @media (max-width: 600px) {
 
@@ -791,7 +936,8 @@ footer {
   }
 
   .nav-container {
-    padding: 12px 16px;
+    padding:
+      12px 16px;
   }
 
   .nav-links {
@@ -803,7 +949,9 @@ footer {
   }
 
   .hero {
-    padding: 52px 18px 46px;
+    padding:
+      50px 18px
+      44px;
   }
 
   .hero h1 {
@@ -832,22 +980,40 @@ footer {
 
   .main-container {
     width:
-      min(100% - 24px, 1120px);
+      min(
+        100% - 24px,
+        1120px
+      );
 
     padding-top: 34px;
   }
 
   .content-card {
-    padding: 28px 23px;
+    padding:
+      28px 23px;
 
     border-radius: 12px;
   }
 
   .skill-card,
   .project-content,
-  .experience-item,
   .cert-card {
     padding: 22px;
+  }
+
+  #experience .experience-item {
+    padding:
+      23px 21px;
+  }
+
+  #experience .experience-heading {
+    flex-direction: column;
+
+    gap: 8px;
+  }
+
+  #experience .experience-date {
+    white-space: normal;
   }
 
   .section-block,
@@ -862,7 +1028,8 @@ footer {
   }
 
   .contact-card {
-    padding: 32px 23px;
+    padding:
+      32px 23px;
   }
 
 }
