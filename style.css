@@ -438,12 +438,14 @@ iframe {
 
 .tags {
   display: flex;
-
   flex-wrap: wrap;
-
   gap: 8px;
-
   margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+.project-content .tags + h3 {
+  margin-top: 32px;
 }
 
 .tag {
